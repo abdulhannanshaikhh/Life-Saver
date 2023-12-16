@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import React from "react";
+
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Home Page</h1>
+    </div>
+=======
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -76,6 +88,10 @@ const HomePage = () => {
         </>
       )}
     </Layout>
+<<<<<<< HEAD
+=======
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
   );
 };
 

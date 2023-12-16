@@ -1,16 +1,42 @@
+<<<<<<< HEAD
 const mongoose = require("mongoose");
+=======
+<<<<<<< HEAD
+=======
+const mongoose = require("mongoose");
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
 const inventoryModel = require("../models/inventoryModel");
 const userModel = require("../models/userModel");
 
 // CREATE INVENTORY
 const createInventoryController = async (req, res) => {
   try {
+<<<<<<< HEAD
     const { email } = req.body;
+=======
+<<<<<<< HEAD
+    const { email, inventoryType } = req.body;
+=======
+    const { email } = req.body;
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
     //validation
     const user = await userModel.findOne({ email });
     if (!user) {
       throw new Error("User Not Found");
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    if (inventoryType === "in" && user.role !== "donar") {
+      throw new Error("Not a donar account");
+    }
+    if (inventoryType === "out" && user.role !== "hospital") {
+      throw new Error("Not a hospital");
+    }
+=======
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
     // if (inventoryType === "in" && user.role !== "donar") {
     //   throw new Error("Not a donar account");
     // }
@@ -73,6 +99,10 @@ const createInventoryController = async (req, res) => {
       req.body.donar = user?._id;
     }
 
+<<<<<<< HEAD
+=======
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
     //save record
     const inventory = new inventoryModel(req.body);
     await inventory.save();
@@ -90,7 +120,15 @@ const createInventoryController = async (req, res) => {
   }
 };
 
+<<<<<<< HEAD
 // GET ALL BLOOD RECORS
+=======
+<<<<<<< HEAD
+//Get All Blood Records
+=======
+// GET ALL BLOOD RECORS
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
 const getInventoryController = async (req, res) => {
   try {
     const inventory = await inventoryModel
@@ -114,6 +152,13 @@ const getInventoryController = async (req, res) => {
     });
   }
 };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+module.exports = { createInventoryController, getInventoryController };
+=======
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
 // GET Hospital BLOOD RECORS
 const getInventoryHospitalController = async (req, res) => {
   try {
@@ -271,3 +316,7 @@ module.exports = {
   getInventoryHospitalController,
   getRecentInventoryController,
 };
+<<<<<<< HEAD
+=======
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92

@@ -4,6 +4,7 @@ import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+<<<<<<< HEAD
 import ProtectedRoute from "./components/Routes/ProtectedRoute";
 import PublicRoute from "./components/Routes/PublicRoute";
 import Donar from "./pages/Dashboard/Donar";
@@ -102,6 +103,24 @@ function App() {
             </ProtectedRoute>
           }
         />
+=======
+<<<<<<< HEAD
+=======
+import ProtectedRoute from "./components/Routes/ProtectedRoute";
+import PublicRoute from "./components/Routes/PublicRoute";
+>>>>>>> masterr
+
+function App() {
+  return (
+    <>
+      <ToastContainer /> {/* Place ToastContainer outside of Routes */}
+      <Routes>
+<<<<<<< HEAD
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+=======
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
         <Route
           path="/"
           element={
@@ -126,6 +145,10 @@ function App() {
             </PublicRoute>
           }
         />
+<<<<<<< HEAD
+=======
+>>>>>>> masterr
+>>>>>>> 0343f4a14f353a68ccb3b753adc6303f086eec92
       </Routes>
     </>
   );
