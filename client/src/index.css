@@ -5,9 +5,13 @@
   /* overflow: hidden; */
 }
 
+<<<<<<< HEAD
 /* ===========
 ==== FORM
 =========== */
+=======
+/* FORM */
+>>>>>>> masterr
 
 .form-banner img {
   height: 100%;
@@ -21,9 +25,13 @@
   min-height: 100vh;
 }
 
+<<<<<<< HEAD
 /* =============
 ====== laoder 
 =============== */
+=======
+/* laoder */
+>>>>>>> masterr
 .loader-container {
   display: flex;
   align-items: center;
@@ -50,4 +58,18 @@
   100% {
     transform: rotate(360deg);
   }
+<<<<<<< HEAD
+=======
+}
+
+/*navbar*/
+.navbar {
+  background-color: black !important;
+  color: white !important;
+}
+.nav-link,
+.navbar-brand {
+  background-color: black !important;
+  color: white !important;
+>>>>>>> masterr
 }
