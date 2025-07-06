@@ -61,56 +61,6 @@ The system enables **secure user authentication**, **real-time inventory updates
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js
-- MongoDB
-- Git
-
-### Installation
-
-1. Clone the repository  
-```bash
-git clone https://github.com/your-username/lifesaver-blood-app.git
-```
-
-2. Navigate to the project directory  
-```bash
-cd lifesaver-blood-app
-```
-
-3. Install backend dependencies  
-```bash
-cd backend
-npm install
-```
-
-4. Install frontend dependencies  
-```bash
-cd ../frontend
-npm install
-```
-
-5. Configure environment variables for backend (`.env`)  
-```
-MONGO_URI=your_mongo_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
-```
-
-6. Run backend and frontend  
-```bash
-# In backend/
-npm run server
-
-# In frontend/
-npm start
-```
-
----
-
 ## 🤝 Contributions
 
 We welcome contributions from the GitHub community!
@@ -126,9 +76,6 @@ We welcome contributions from the GitHub community!
 ## 🙏 Acknowledgements
 
 - Presidency University, Bangalore – For academic support  
-- Taipei Medical University – For exposure to real-world healthcare research  
 - All open-source contributors and tools used
 
 ---
-
-**Together, let’s make blood donation faster, smarter, and more life-saving.**
