@@ -15,7 +15,7 @@ The system enables **secure user authentication**, **real-time inventory updates
 
 📰 **Published in**: *International Research Journal of Modernization in Engineering Technology & Science (IRJMETS)*  
 📅 **Date**: Jan 13, 2024 | **Volume**: 06 | **Issue**: 01  
-📄 [Show Publication](#)
+📄 [Show Publication](https://www.irjmets.com/uploadedfiles/paper//issue_1_january_2024/48376/final/fin_irjmets1705144644.pdf)
 
 ---
 
@@ -40,15 +40,14 @@ The system enables **secure user authentication**, **real-time inventory updates
 | **Database**     | MongoDB                                    |
 | **Authentication** | JSON Web Tokens (JWT), Bcrypt             |
 | **Version Control** | Git, GitHub                              |
-| **Deployment**   | [Optional: Add deployment platform]        |
 
 ---
 
 ## 🧑‍💻 Project Team
 
-- **Abdul Hannan** – Project Team Lead  
-- **Mohammed Zaid** – Full Stack Developer  
-- **Mohammed Zaid Abdulla** – Frontend Developer  
+- **Abdul Hannan** – Project Team Lead
+- **Mohammed Zaid**
+- **Mohammed Zaid Abdulla**
 
 ---
 
@@ -124,26 +123,11 @@ We welcome contributions from the GitHub community!
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙏 Acknowledgements
 
 - Presidency University, Bangalore – For academic support  
 - Taipei Medical University – For exposure to real-world healthcare research  
 - All open-source contributors and tools used
-
----
-
-## 📬 Contact
-
-**Abdul Hannan**  
-📧 [abdulhannan.shaikhh@gmail.com](mailto:abdulhannan.shaikhh@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/abdulhannan-shaikh/)  
-💻 [GitHub](https://github.com/abdulhannan-99)
 
 ---
 
