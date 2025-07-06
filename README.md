@@ -1,6 +1,6 @@
 # LifeSaver: Blood Donation Inventory Management System Web App
 
-[MERN Stack](https://img.shields.io/badge/Built%20With-MERN-blueviolet)
+![MERN Stack](https://img.shields.io/badge/Built%20With-MERN-blueviolet)
 ![Publication](https://img.shields.io/badge/Published%20In-IRJMETS-brightgreen)
 
 > A full-featured blood donation and inventory management system built with the MERN stack, aiming to streamline hospital workflows, optimize blood logistics, and save lives through technology.
