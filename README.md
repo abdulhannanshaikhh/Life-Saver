@@ -1,4 +1,4 @@
-# 🩸 LifeSaver: Blood Donation Inventory Management System Web App
+# LifeSaver: Blood Donation Inventory Management System Web App
 
 [MERN Stack](https://img.shields.io/badge/Built%20With-MERN-blueviolet)
 ![Publication](https://img.shields.io/badge/Published%20In-IRJMETS-brightgreen)
