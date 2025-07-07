@@ -27,7 +27,6 @@ The system enables **secure user authentication**, **real-time inventory updates
 - 📅 Appointment Scheduling & Donation History Tracking
 - 📊 Analytics for Hospital & Blood Bank Decision-Making
 - 🧪 Comprehensive Testing & Performance Evaluation
-- 📱 Fully Responsive UI (Mobile & Desktop)
 
 ---
 
